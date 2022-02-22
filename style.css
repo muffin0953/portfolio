@@ -1,0 +1,56 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background: #854444;
+    font-family: "Baloo Tamma 2", cursive;
+  }
+  
+  
+  /* Main Heading Font */
+  .m-heading {
+    font-family: "Roboto Slab", serif;
+  }
+  
+  /* Navigation */
+  .navigation-link {
+    border: 2px solid transparent;
+  }
+  
+  .navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #ff8585;
+    transition: 0.5s ease;
+  }
+  
+  /* Main Container height*/
+  .main-container {
+    height: 50vh;
+  }
+  
+  /* Aligning items in main row */
+  .main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Changing Name Font sixe */
+  .main_row h1 {
+    font-size: 5rem;
+  }
+  
+  /* About Section */
+  .about {
+    background: #914242;
+    border-radius: 0.5rem;
+    
+  }
+
+  .card {
+    border-bottom: 8px solid #f5ba09;
+  }
+  
+  
